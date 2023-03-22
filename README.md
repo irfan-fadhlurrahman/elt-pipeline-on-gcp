@@ -43,16 +43,16 @@ There are two aspects to consider when checking data quality in the warehouse su
 
 To demonstrate data changes in the fact table at a warehouse, remove all missing values on the both trip route where is a pair of station start & end.
 
-![alt text](https://github.com/irfan-fadhlurrahman/dtc-de-final-project/blob/main/images/1_ride_id.PNG "source: Author personal image")
+![alt text](https://github.com/irfan-fadhlurrahman/elt-pipeline-on-gcp/blob/main/images/1_ride_id.PNG "source: Author personal image")
 
-![alt text](https://github.com/irfan-fadhlurrahman/dtc-de-final-project/blob/main/images/2_trip_route.PNG "source: Author personal image")
+![alt text](https://github.com/irfan-fadhlurrahman/elt-pipeline-on-gcp/blob/main/images/2_trip_route.PNG "source: Author personal image")
 
 The removed missing values of the station field are around three hundred thousand rows and the uniqueness of the ride id are the same for both data models. 
 
 ## Dashboard
 This dashboard uses the latest data model which contains no missing values in the station-related field. 
 
-![alt text](https://github.com/irfan-fadhlurrahman/dtc-de-final-project/blob/main/images/Dashboard.gif "Capital Bike Dashboard | source: Author personal image")
+![alt text](https://github.com/irfan-fadhlurrahman/elt-pipeline-on-gcp/blob/main/images/Dashboard.gif "Capital Bike Dashboard | source: Author personal image")
 
 From the above dashboard, we can conclude that the most active members are at 17.00 to 18.00 where it is the time range for most people to go home after working. Also, notice that around 08.00 there is a peak too for members. But, the highest total trips per day of week are at weekends with average trip duration more than 25 minutes. The top eight of station pairings have the same start and end station name. It means that some of the users ride the bike not to go to other places. The classic bike still dominates with 83% shares. 
 
