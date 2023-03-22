@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: staging
+    database: dtc-de-course-375301
+    schema: capital_bike_share
+
+    tables:
+      - name: external_bike_table

@@ -1,0 +1,16 @@
+prefect==2.8.5
+prefect-sqlalchemy==0.2.4
+prefect-gcp[cloud_storage]
+prefect-gcp[bigquery]
+prefect-gcp[secret_manager]
+prefect-dbt[bigquery]
+protobuf==4.22.1
+pyarrow==6.0.1
+python-dotenv
+psycopg2-binary==2.9.5
+sqlalchemy==1.4.46
+vaex==4.16.0
+dbt-core==1.4.5
+dbt-bigquery==1.4.3
+piperider[bigquery]
+pybigquery==0.10.2
