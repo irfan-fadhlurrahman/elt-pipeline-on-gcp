@@ -22,5 +22,5 @@ FROM
     fact_bikes
 WHERE
     duration_in_seconds > 0
-    -- AND trip_route IS NOT NULL
+    AND trip_route IS NOT NULL
 
