@@ -213,7 +213,7 @@ tmux kill-session -t capital_bike
 ```
 
 ## Further Improvement
-* Use python venv instead conda to create a virtual environment.
-* Add Makefile.
-* Add CI/CD test.
-* Create a dashboard metrics in PipeRider.
+* Use python venv instead conda to create a virtual environment
+* Add Makefile
+* Add CI/CD test
+* Create a dashboard metrics in PipeRider
